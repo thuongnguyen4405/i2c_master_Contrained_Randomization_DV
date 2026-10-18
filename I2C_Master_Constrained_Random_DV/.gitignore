@@ -1,0 +1,19 @@
+# Protected instructor/course RTL must never be uploaded.
+rtl/*.svp
+rtl/*.vp
+# Generated Questa outputs
+**/work/
+**/vsim.dbg
+**/vsim.wlf
+**/modelsim.ini
+**/compile.log
+**/transcript
+**/*.log
+*.vcd
+*.fst
+__pycache__/
+.pytest_cache/
+.vscode/
+.idea/
+*.swp
+*~
