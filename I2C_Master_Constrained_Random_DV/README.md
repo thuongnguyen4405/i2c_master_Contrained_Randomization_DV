@@ -167,6 +167,7 @@ ADDR=4f DATA=c6 LOW=542 HIGH=458 HOLD=215
 - Compile PASS, randomization PASS, activity observed, and functional PASS are **four separate claims**.
 - Unbounded-constrained timing can exceed a fixed simulation timeout; **constraint intent matters**.
 - This observer prints timing but is not a self-checking scoreboard or coverage engine. Better next steps: assertions, scoreboard, corner-case tests, multi-seed regression, coverage and race-free pin driving.
-
+##WAVE FORM
+<img width="1513" height="302" alt="image" src="https://github.com/user-attachments/assets/0af68e4e-d149-48c3-861a-7265b9ac21d1" />
 
 
