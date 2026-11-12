@@ -167,12 +167,5 @@ ADDR=4f DATA=c6 LOW=542 HIGH=458 HOLD=215
 - Unbounded-constrained timing can exceed a fixed simulation timeout; **constraint intent matters**.
 - This observer prints timing but is not a self-checking scoreboard or coverage engine. Better next steps: assertions, scoreboard, corner-case tests, multi-seed regression, coverage and race-free pin driving.
 
-## Interview talking point
 
-> Developed a lightweight, transaction-based SystemVerilog OOP verification environment for an I2C master timing controller, covering three configured speed modes. Implemented constrained-random packet generation, inherited scenarios with plusarg test selection, typed mailbox communication, driver/interface separation and edge-based timing observations. Debugged reset synchronization, virtual dispatch and constraint-induced simulation timeouts.
 
-See [interview questions](docs/INTERVIEW_GUIDE.md), [architecture](docs/ARCHITECTURE.md), [verification plan](docs/VERIFICATION_PLAN.md), and [debugging notes](docs/DEBUGGING.md).
-
-## Publication note
-
-Some screenshot-derived scaffolding originated in a course environment. **Confirm permission to redistribute it publicly** before pushing to GitHub. The encrypted RTL, original slide PDFs, user account details and remote screenshots were not included. [Read NOTICE](NOTICE.md).
