@@ -156,6 +156,7 @@ ADDR=4f DATA=c6 LOW=542 HIGH=458 HOLD=215
 [monitor] TSDA_Hold = 2150, TSCL_Setup = 3270
 [base_test] End simulation
 ```
+<img width="1195" height="751" alt="image" src="https://github.com/user-attachments/assets/f13b0935-fa32-4127-9229-bc567ba15eef" />
 
 **Caveat:** The CLI in this screenshot said `TESTNAME=i2c_fast_test`, but a previously hard-coded testbench class still selected **Standard**. These are **not** Fast-mode results, nor proof of demo-DUT correctness. No final Fast/Fast Plus waveform results were supplied. See [observed results](docs/OBSERVED_RESULTS.md).
 
